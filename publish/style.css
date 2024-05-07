@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f7f4;
+}
+
+footer {
+  background-color: rgb(6, 24, 49);
+  width: 100%;
+  height: 50px;
+  border: 1px;
+  border-color: cyan;
+}
+
+.halamanutama {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.textjudul {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.textjudul.short {
+  text-align: center;
+}
+
+.textjudul.in {
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+}
+
+.textjudul.out {
+  animation-name: fadeOutRight;
+  animation-duration: 1s;
+}
+
+.navtext1:hover {
+  animation-name: fadeUp;
+  animation-duration: 1s;
+}
+
+.navtext2:hover {
+  animation-name: fadeUp;
+  animation-duration: 1s;
+}
+
+.navtext3:hover {
+  animation-name: fadeUp;
+  animation-duration: 1s;
+}
