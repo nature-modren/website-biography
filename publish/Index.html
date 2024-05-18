@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
-  <body>
+  <body class="h-screen">
     <div class="panelAtas">
       <nav class="p-5">
         <div class="container mx-10">
@@ -25,7 +25,6 @@
                 >AMRI FIRDAUS</span
               >
             </div>
-
             <div class="hidden lg:flex flex-grow justify-end">
               <a
                 href="Index.html"
@@ -36,7 +35,7 @@
               <a
                 href="koleksi.html"
                 id="tautan2"
-                class="navtext2 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-cyan-200 mr-2"
+                class="nav text2 block mt-4 lg:inline-block lg:mt-0 text-black hover:text-cyan-200 mr-2"
                 >KOLEKSI</a
               >
               <a
@@ -51,8 +50,23 @@
       </nav>
     </div>
 
+    <div class="dashboard flex justify-center items-center flex-col">
+      <div class="content text-center mb-5">
+        <p id="text-animasi" class="typing text-2xl font-mono"></p>
+      </div>
+      <img
+        src="gambar-pemandangan.jpg"
+        alt="gambar gagal di tampilkan oleh browser"
+        class="picture w-2/3 rounded-lg shadow-lg"
+      />
+      <p class="text-wrap mt-3">
+        salam sehat semua nya, pada halaman ini saya akan membagikan cerita saya
+        dalam menjalani karier sebagai web developer
+      </p>
+    </div>
+
     <footer
-      class="flex align-center items-center justify-center mb-0 bottom-0 fixed text-white"
+      class="flex align-center items-center justify-center mb-0 bottom-0 fixed text-white w-full h-16 bg-gray-800"
     >
       <div class="panelbawah"><a href="#">@Amri Firdaus 2024</a></div>
     </footer>
