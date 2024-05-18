@@ -55,3 +55,17 @@ window.onload = function () {
       }, 1000);
     });
 };
+
+const text = "Hai semua saya Amri Firdaus,seorang Web developer";
+let index = 0;
+let speedketik = 100;
+
+function ketik() {
+  if (index < text.length) {
+    document.getElementById("text-animasi").innerHTML += text.charAt(index);
+    index++;
+    setTimeout(ketik, speedketik);
+  }
+}
+
+ketik();
