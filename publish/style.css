@@ -58,3 +58,19 @@ footer {
   animation-name: fadeUp;
   animation-duration: 1s;
 }
+
+.typing::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.picture {
+  width: 300px;
+  height: 200px;
+}
