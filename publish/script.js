@@ -6,7 +6,7 @@ window.onload = function () {
     if (element.classList.contains("animate__slideOutRight"))
       element.classList.remove("animate__slideOutRight");
     else {
-      element.classList.add("animate__slideInLeft"); // Di sini, i-nya harus besar: animate__slideInLeft
+      element.classList.add("animate__slideInLeft"); 
     }
   };
 
